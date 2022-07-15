@@ -8,7 +8,7 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a href="" target="_blank"><BsLinkedin /></a>
       <a href="" target="_blank"><BsGithub /></a>
-      <a href="" target="_blank"></a>
+      <a href="" target="_blank">icon</a>
 
     </div>
   )
