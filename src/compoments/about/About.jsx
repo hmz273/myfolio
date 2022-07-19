@@ -38,13 +38,15 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam vel
-            natus quod optio assumenda dicta voluptates accusantium inventore
-            consectetur dolore tenetur expedita hic explicabo veritatis, quos
-            iste et deleniti iure!
+            I'm a web developer with a focus on the MERN stack, but still
+            exploring other technologies and frameworks that catch my interest!
+            if you're looking for a developer to add to your team, I'd love to
+            hear from you!
           </p>
 
-          <a href="" className="btn btn-primary">Let's Talk</a>
+          <a href="" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
