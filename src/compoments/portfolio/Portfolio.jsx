@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/Agency.png";
 import IMG2 from "../../assets/fit.png";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
@@ -13,9 +13,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "This is a portfolio item title",
+    title: "Agency App",
     github: "https://github.com",
-    demo: "https//google.com",
+    demo: "https://agency-gules.vercel.app/",
   },
 
   {
@@ -23,7 +23,7 @@ const data = [
     image: IMG2,
     title: "Fitness App",
     github: "https://github.com",
-    demo: "https//google.com",
+    demo: "https://gym-fit.vercel.app/",
   },
 
   {
