@@ -26,14 +26,14 @@ const About = () => {
 
             <article className="about__card">
               <div className="about__icon">icon</div>
-              <h5>Experience</h5>
+              <h5>Clients</h5>
               <small>+2 Years Working</small>
             </article>
 
             <article className="about__card">
               <div className="about__icon">icon</div>
-              <h5>Experience</h5>
-              <small>+2 Years Working</small>
+              <h5>Projects</h5>
+              <small>+40 Completed</small>
             </article>
           </div>
 
