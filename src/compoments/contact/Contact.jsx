@@ -1,5 +1,9 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com';
+
+import { BsLinkedin } from 'react-icons/bs'
+import { FaInstagramSquare } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
 import './Contact.css'
 
 const Contact = () => {
@@ -29,24 +33,24 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            icon
+            <AiOutlineMail />
             <h4>Email</h4>
-            <h5>hamzaelabdi58@gmail.com</h5>
-            <a href="mailto:hamzaelabdi58@gmail.com">Send a message</a>
+            {/* <h5>hamzaelabdi58@gmail.com</h5> */}
+            <a href="mailto:hamzaelabdi58@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
-            icon
-            <h4>Email</h4>
-            <h5>hamzaelabdi58@gmail.com</h5>
-            <a href="mailto:hamzaelabdi58@gmail.com">Send a message</a>
+            <BsLinkedin />
+            <h4>Linkedin</h4>
+            {/* <h5>Linkedin</h5> */}
+            <a href="https://www.linkedin.com/in/hamza-elabdi-276828239" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
-            icon
-            <h4>Email</h4>
-            <h5>hamzaelabdi58@gmail.com</h5>
-            <a href="mailto:hamzaelabdi58@gmail.com">Send a message</a>
+            <FaInstagramSquare />
+            <h4>Instagram</h4>
+            {/* <h5>Instagram</h5> */}
+            <a href="https://www.instagram.com/fastwebdigital/" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
