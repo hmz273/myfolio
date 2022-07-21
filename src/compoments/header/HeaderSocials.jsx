@@ -7,9 +7,9 @@ import { FaInstagramSquare } from 'react-icons/fa'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="linkedin.com/in/hamza-elabdi-276828239" target="_blank"><BsLinkedin /></a>
-      <a href="https://github.com/hmz273" target="_blank"><BsGithub /></a>
-      <a href="https://www.instagram.com/fastwebdigital/" target="_blank"><FaInstagramSquare /></a>
+      <a href="https://www.linkedin.com/in/hamza-elabdi-276828239" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+      <a href="https://github.com/hmz273" target="_blank" rel="noreferrer"><BsGithub /></a>
+      <a href="https://www.instagram.com/fastwebdigital/" target="_blank" rel="noreferrer"><FaInstagramSquare /></a>
 
     </div>
   )
