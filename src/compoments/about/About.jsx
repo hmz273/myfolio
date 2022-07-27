@@ -1,6 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./about.css";
+import { FaAward } from 'react-icons/fa'
+import { VscFolderLibrary } from 'react-icons/vsc'
+import { FiUsers } from 'react-icons/fi'
+
 import ME from "../../assets/working.png";
 
 const About = () => {
@@ -19,19 +23,19 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <div className="about__icon">icon</div>
+              <div className="about__icon"><FaAward /></div>
               <h5>Experience</h5>
               <small>+2 Years Working</small>
             </article>
 
             <article className="about__card">
-              <div className="about__icon">icon</div>
+              <div className="about__icon"><FiUsers /></div>
               <h5>Clients</h5>
-              <small>+2 Years Working</small>
+              <small>+20 Worldwide</small>
             </article>
 
             <article className="about__card">
-              <div className="about__icon">icon</div>
+              <div className="about__icon"><VscFolderLibrary /></div>
               <h5>Projects</h5>
               <small>+40 Completed</small>
             </article>

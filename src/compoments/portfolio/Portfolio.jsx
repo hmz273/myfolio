@@ -4,7 +4,7 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/Agency.png";
 import IMG2 from "../../assets/fit.png";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/trv.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -29,9 +29,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "This is a portfolio item title",
+    title: "Travel App",
     github: "https://github.com",
-    demo: "https//google.com",
+    demo: "https://travel-agency-gamma.vercel.app",
   },
 
   {
