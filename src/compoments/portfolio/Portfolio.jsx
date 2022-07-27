@@ -14,7 +14,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Agency App",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https://agency-gules.vercel.app/",
   },
 
@@ -22,7 +22,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: "Fitness App",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https://gym-fit.vercel.app/",
   },
 
@@ -30,7 +30,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "Travel App",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https://travel-agency-gamma.vercel.app",
   },
 
@@ -38,7 +38,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: "This is a portfolio item title",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https//google.com",
   },
 
@@ -46,7 +46,7 @@ const data = [
     id: 5,
     image: IMG5,
     title: "This is a portfolio item title",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https//google.com",
   },
 
@@ -54,7 +54,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: "This is a portfolio item title",
-    github: "https://github.com",
+    github: "https://github.com/hmz273",
     demo: "https//google.com",
   },
 ];
