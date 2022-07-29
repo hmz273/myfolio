@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
 import { RiServiceLine } from 'react-icons/ri'
+import { FiShoppingCart } from 'react-icons/fi'
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi'
 import './Nav.css'
 
@@ -14,7 +15,7 @@ const Nav = () => {
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
-      {/* <a href="https://www.linkedin.com/in/hamza-elabdi-276828239" target="_blank" rel="noreferrer">S</a> */}
+      <a href="https://my-store-c74457.creator-spring.com/" onClick={() => setActiveNav('https://my-store-c74457.creator-spring.com/')} className={activeNav === 'https://my-store-c74457.creator-spring.com/' ? 'active' : ''} target="_blank" rel="noreferrer"><FiShoppingCart/></a>
     </nav>
   )
 }
