@@ -6,7 +6,7 @@ import IMG1 from "../../assets/Agency.png";
 import IMG2 from "../../assets/fit.png";
 import IMG3 from "../../assets/trv.png";
 import IMG4 from "../../assets/movies.png";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/movies2.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
@@ -37,7 +37,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "TMovies App",
+    title: "Movies App",
     github: "https://github.com/hmz273",
     demo: "https://movies-night.vercel.app/",
   },
@@ -45,9 +45,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "This is a portfolio item title",
+    title: "TMovies",
     github: "https://github.com/hmz273",
-    demo: "https//google.com",
+    demo: "https://react-movie-azure.vercel.app/",
   },
 
   {
