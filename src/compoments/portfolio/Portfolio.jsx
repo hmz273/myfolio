@@ -37,7 +37,7 @@ const data = [
   {
     id: 4,
     image: IMG5,
-    title: "TMovies",
+    title: "TMovies App",
     github: "https://github.com/hmz273",
     demo: "https://react-movie-azure.vercel.app/",
   },
