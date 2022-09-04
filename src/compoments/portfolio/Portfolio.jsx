@@ -36,18 +36,18 @@ const data = [
 
   {
     id: 4,
-    image: IMG4,
-    title: "Movies App",
-    github: "https://github.com/hmz273",
-    demo: "https://movies-night.vercel.app/",
-  },
-
-  {
-    id: 5,
     image: IMG5,
     title: "TMovies",
     github: "https://github.com/hmz273",
     demo: "https://react-movie-azure.vercel.app/",
+  },
+
+  {
+    id: 5,
+    image: IMG6,
+    title: "This is a portfolio item title",
+    github: "https://github.com/hmz273",
+    demo: "https//google.com",
   },
 
   {
