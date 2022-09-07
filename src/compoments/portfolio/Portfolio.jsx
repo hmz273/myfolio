@@ -31,7 +31,7 @@ const data = [
     image: IMG3,
     title: "Travel App",
     github: "https://github.com/hmz273",
-    demo: "https://travel-agency-gamma.vercel.app",
+    demo: "https://chafai-agency.vercel.app/",
   },
 
   {
