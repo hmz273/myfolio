@@ -5,9 +5,9 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/Agency.png";
 import IMG2 from "../../assets/fit.png";
 import IMG3 from "../../assets/trv.png";
-import IMG4 from "../../assets/portfolio5.png";
+// import IMG4 from "../../assets/portfolio5.png";
 import IMG5 from "../../assets/movies2.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+// import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
@@ -42,21 +42,21 @@ const data = [
     demo: "https://react-movie-azure.vercel.app/",
   },
 
-  {
-    id: 5,
-    image: IMG4,
-    title: "This is a portfolio item title",
-    github: "https://github.com/hmz273",
-    demo: "https//google.com",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG4,
+  //   title: "This is a portfolio item title",
+  //   github: "https://github.com/hmz273",
+  //   demo: "https//google.com",
+  // },
 
-  {
-    id: 6,
-    image: IMG6,
-    title: "This is a portfolio item title",
-    github: "https://github.com/hmz273",
-    demo: "https//google.com",
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "This is a portfolio item title",
+  //   github: "https://github.com/hmz273",
+  //   demo: "https//google.com",
+  // },
 ];
 
 const Portfolio = () => {

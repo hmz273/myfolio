@@ -90,6 +90,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head">
             <h3>Mobile Development</h3>
+            <h4>featured</h4>
           </div>
           
           <ul className="service__list">
