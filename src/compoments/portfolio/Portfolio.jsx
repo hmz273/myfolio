@@ -8,6 +8,8 @@ import IMG3 from "../../assets/trv.png";
 import IMG4 from "../../assets/speecher.png";
 import IMG5 from "../../assets/movies2.png";
 import IMG6 from "../../assets/movies.png";
+import IMG7 from "../../assets/growup.png";
+import IMG8 from "../../assets/gimpo.png";
 
 const data = [
   {
@@ -56,6 +58,22 @@ const data = [
     title: "Cinema App",
     github: "https://github.com/hmz273",
     demo: "https://movies-night.vercel.app/",
+  },
+
+  {
+    id: 7,
+    image: IMG7,
+    title: "GrowUp App",
+    github: "https://github.com/hmz273",
+    demo: "growup-ten.vercel.app/",
+  },
+
+  {
+    id: 8,
+    image: IMG8,
+    title: "Gimpo App",
+    github: "https://github.com/hmz273",
+    demo: "gimpo-eight.vercel.app/",
   },
 ];
 
