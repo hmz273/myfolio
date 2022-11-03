@@ -1,18 +1,28 @@
-import React from 'react'
-import { BiCheck } from 'react-icons/bi'
-import './Services.css'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { BiCheck } from "react-icons/bi";
+import "./Services.css";
 const Services = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
       <div className="container services__container">
-        <article className="service">
+        <article
+          className="service"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
-          
+
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
@@ -43,16 +53,18 @@ const Services = () => {
               <BiCheck className="service__list-icon" />
               <p>UI/UX</p>
             </li>
-
           </ul>
         </article>
 
-
-        <article className="service">
+        <article
+          className="service"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div className="service__head">
             <h3>web Development</h3>
           </div>
-          
+
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
@@ -86,15 +98,17 @@ const Services = () => {
           </ul>
         </article>
 
-
-        <article className="service">
+        <article
+          className="service"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="service__head">
             <h3>Mobile Development</h3>
             <h4>featured</h4>
           </div>
-          
+
           <ul className="service__list">
-
             <li>
               <BiCheck className="service__list-icon" />
               <p>Lorem ipsum dolor</p>
@@ -124,12 +138,11 @@ const Services = () => {
               <BiCheck className="service__list-icon" />
               <p>Lorem ipsum dolor</p>
             </li>
-
           </ul>
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

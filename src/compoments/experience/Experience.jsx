@@ -1,15 +1,22 @@
-import React from 'react'
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { BsPatchCheckFill } from 'react-icons/bs'
 import './Experience.css'
 
 const Experience = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div className="experience__frontend" data-aos="zoom-in-right">
           <h3>Frontend Development</h3>
           <div className="experience__content">
           <article className="experience__details">
@@ -66,7 +73,7 @@ const Experience = () => {
 
 {/* ======================= */}
 
-        <div className="experience__backend">
+        <div className="experience__backend" data-aos="zoom-in-left">
           <h3>Backend Development</h3>
           <div className="experience__content">
           <article className="experience__details">

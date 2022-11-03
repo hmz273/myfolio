@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Portfolio.css";
 import IMG1 from "../../assets/Agency.png";
 import IMG2 from "../../assets/fit.png";
@@ -10,6 +12,8 @@ import IMG5 from "../../assets/movies2.png";
 import IMG6 from "../../assets/movies.png";
 import IMG7 from "../../assets/growup.png";
 import IMG8 from "../../assets/gimpo.png";
+
+// import FIMG1 from "../../assets/Agency.png";
 
 const data = [
   {
@@ -77,7 +81,23 @@ const data = [
   },
 ];
 
+// const featured = [
+//   {
+//     id: 1,
+//     image: FIMG1,
+//     title: "NFT Web3 App",
+//     github: "https://github.com/hmz273",
+//     demo: "https://agency-gules.vercel.app/",
+//   },
+// ];
+
 const Portfolio = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+  
   return (
     <section id="portfolio">
       <h5>My Recent Projects</h5>
@@ -86,7 +106,8 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio__item">
+            <article key={id} className="portfolio__item" data-aos="fade-up"
+            data-aos-duration="2500">
               <div className="portfolio__item-image">
                 <img src={image} alt="" />
               </div>
@@ -102,6 +123,26 @@ const Portfolio = () => {
             </article>
           );
         })}
+
+        {/* {featured.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item__fetr" data-aos="fade-up"
+            data-aos-duration="2500">
+              <div className="portfolio__item-image-fetr">
+                <img src={image} alt="" />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta-fetr">
+                <a href={github} className="btn" target="_blank">
+                  Github
+                </a>
+                <a href={demo} className="btn btn-primary" target="_blank">
+                  demo
+                </a>
+              </div>
+            </article>
+          );
+        })} */}
       </div>
     </section>
   );
