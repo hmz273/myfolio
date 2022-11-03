@@ -53,7 +53,7 @@ const data = [
     image: IMG4,
     title: "Speech To Text App",
     github: "https://github.com/hmz273",
-    demo: "https//google.com",
+    demo: "https://speecher.vercel.app/",
   },
 
   {
