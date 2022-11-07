@@ -12,6 +12,7 @@ import IMG5 from "../../assets/movies2.png";
 import IMG6 from "../../assets/movies.png";
 import IMG7 from "../../assets/growup.png";
 import IMG8 from "../../assets/gimpo.png";
+import IMG9 from "../../assets/robot.png";
 
 // import FIMG1 from "../../assets/Agency.png";
 
@@ -78,6 +79,14 @@ const data = [
     title: "Gimpo App",
     github: "https://github.com/hmz273",
     demo: "gimpo-eight.vercel.app/",
+  },
+
+  {
+    id: 9,
+    image: IMG9,
+    title: "Robots App",
+    github: "https://github.com/hmz273",
+    demo: "https://robots-fawn.vercel.app/",
   },
 ];
 
