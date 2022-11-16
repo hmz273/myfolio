@@ -70,7 +70,7 @@ const data = [
     image: IMG7,
     title: "GrowUp App",
     github: "https://github.com/hmz273",
-    demo: "growup-ten.vercel.app/",
+    demo: "https://growup-ten.vercel.app/",
   },
 
   {
@@ -78,7 +78,7 @@ const data = [
     image: IMG8,
     title: "Gimpo App",
     github: "https://github.com/hmz273",
-    demo: "gimpo-eight.vercel.app/",
+    demo: "https://gimpo-eight.vercel.app/",
   },
 
   {
