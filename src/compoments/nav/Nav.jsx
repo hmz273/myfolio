@@ -15,7 +15,7 @@ const Nav = () => {
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
-      <a href="https://my-store-c74457.creator-spring.com/" onClick={() => setActiveNav('https://my-store-c74457.creator-spring.com/')} className={activeNav === 'https://my-store-c74457.creator-spring.com/' ? 'active' : ''} target="_blank" rel="noreferrer"><FiShoppingCart/></a>
+      <a href="https://www.redbubble.com/people/HhaammZz24/shop" onClick={() => setActiveNav('https://www.redbubble.com/people/HhaammZz24/shop')} className={activeNav === 'https://www.redbubble.com/people/HhaammZz24/shop' ? 'active' : ''} target="_blank" rel="noreferrer"><FiShoppingCart/></a>
     </nav>
   )
 }
