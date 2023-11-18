@@ -46,12 +46,12 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/hamza-elabdi-276828239" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <FaInstagramSquare />
             <h4>Instagram</h4>
-            {/* <h5>Instagram</h5> */}
+            <h5>Instagram</h5>
             <a href="https://www.instagram.com/fastwebdigital/" target="_blank" rel="noreferrer">Send a message</a>
-          </article>
+          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Full-Name" required />
