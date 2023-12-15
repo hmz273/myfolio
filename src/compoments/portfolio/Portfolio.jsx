@@ -88,6 +88,14 @@ const data = [
     github: "https://github.com/hmz273",
     demo: "https://robots-fawn.vercel.app/",
   },
+
+  {
+    id: 10,
+    image: IMG9,
+    title: "E-Health",
+    github: "https://github.com/hmz273",
+    demo: "https://e-health-seven.vercel.app/",
+  },
 ];
 
 // const featured = [
