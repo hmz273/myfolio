@@ -13,6 +13,7 @@ import IMG6 from "../../assets/movies.png";
 import IMG7 from "../../assets/growup.png";
 import IMG8 from "../../assets/gimpo.png";
 import IMG9 from "../../assets/robot.png";
+import IMG10 from "../../assets/e-health.png";
 
 // import FIMG1 from "../../assets/Agency.png";
 
@@ -91,7 +92,7 @@ const data = [
 
   {
     id: 10,
-    image: IMG9,
+    image: IMG10,
     title: "E-Health",
     github: "https://github.com/hmz273",
     demo: "https://e-health-seven.vercel.app/",
